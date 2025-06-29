@@ -35,9 +35,9 @@
       display: flex;
       justify-content: center;
     }
-    .ml-embedded {
+    .ml-form-embedContainer {
       width: 100%;
-      max-width: 360px;
+      max-width: 400px;
     }
     footer {
       margin-top: 40px;
@@ -68,7 +68,9 @@
   <p>Join the waitlist and follow our real-time journey to build and launch AI-powered income streams — without the hype.</p>
 
   <div class="form-container">
+    <!-- START MailerLite Universal Embed -->
     <div class="ml-embedded" data-form="KoDF4z"></div>
+    <!-- END MailerLite Universal Embed -->
   </div>
 
   <footer>
@@ -81,23 +83,24 @@
   </footer>
 
   <script>
-    (function(m, a, i, l, e, r) {
-      m['MailerLiteObject'] = e;
-      function f() {
-        var c = { a: arguments, q: [] };
-        var r = this.push(c);
-        return 'function' != typeof r ? r : f.bind(c.q);
-      }
-      f.q = f.q || [];
-      m[e] = m[e] || f.bind(f.q);
-      m[e].q = m[e].q || f.q;
-      r = a.createElement(i);
-      var _ = a.getElementsByTagName(i)[0];
-      r.async = 1;
-      r.src = l + '?v' + (~~(new Date().getTime()/1000000));
-      _.parentNode.insertBefore(r, _);
+    (function(m,a,i,l,e,r){ 
+      m['MailerLiteObject']=e; 
+      function f(){ 
+        var c={a:arguments,q:[]}; 
+        var r=this.push(c); 
+        return 'function'!=typeof r?r:f.bind(c.q); 
+      } 
+      f.q=f.q||[]; 
+      m[e]=m[e]||f.bind(f.q); 
+      m[e].q=m[e].q||f.q; 
+      r=a.createElement(i); 
+      var _=a.getElementsByTagName(i)[0]; 
+      r.async=1; 
+      r.src=l+'?v'+(~~(new Date().getTime()/1000000)); 
+      _.parentNode.insertBefore(r,_); 
     })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
     ml('account', '1629177');
   </script>
+
 </body>
 </html>
