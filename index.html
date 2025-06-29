@@ -6,124 +6,118 @@
   <title>Hustle Launch HQ – AI Side Hustle Toolkit</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f7f9fc;
-      color: #222;
       margin: 0;
-      padding: 2rem;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #d7f5e8, #ffffff);
+      color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+      padding: 40px 20px;
     }
 
-    .container {
-      max-width: 600px;
-      margin: 2rem auto;
-      background: #ffffff;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header img {
+      max-width: 180px;
+      height: auto;
     }
 
     h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+      margin-top: 20px;
+      color: #1a1a1a;
     }
 
-    h2 {
+    .subtitle {
       font-size: 1.1rem;
-      font-weight: normal;
-      color: #555;
-      margin-bottom: 1.5rem;
+      max-width: 600px;
+      margin: 10px auto 30px;
+      color: #333;
+      line-height: 1.6;
     }
 
-    ul {
-      padding-left: 1.5rem;
-      margin-bottom: 1.5rem;
+    .form-container {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+      max-width: 450px;
+      width: 100%;
     }
 
-    ul li {
-      margin-bottom: 0.75rem;
+    form input[type="text"],
+    form input[type="email"] {
+      width: 100%;
+      padding: 12px 14px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
     }
 
-    .footer-note {
-      font-size: 0.85rem;
-      color: #777;
-      margin-top: 1.5rem;
-      text-align: center;
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00a336;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    button:hover {
+      background-color: #008f2d;
     }
 
     footer {
-      text-align: center;
-      margin-top: 2rem;
-      font-size: 0.85rem;
-      color: #999;
-    }
-
-    .social-link {
-      display: block;
-      text-align: center;
-      margin-top: 1rem;
+      margin-top: 40px;
       font-size: 0.9rem;
+      color: #666;
+      text-align: center;
     }
 
-    .social-link a {
-      text-decoration: none;
-      color: #333;
-    }
-
-    .social-link a:hover {
-      text-decoration: underline;
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .form-container {
+        padding: 20px;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Be the First to Access the AI Side Hustle Toolkit</h1>
-    <h2>We’re building a real-world guide to help beginners launch profitable AI-powered side hustles — no fluff, no hype, and no expensive courses.</h2>
 
-    <p><strong>What you’ll get when it’s ready:</strong></p>
-    <ul>
-      <li>Behind-the-scenes updates as the Toolkit is built</li>
-      <li>The full 30-day launch plan we're using to hit our first $10K</li>
-      <li>Early access to AI tools, workflows, and real-world results</li>
-      <li>A chance to follow (and replicate) a transparent launch journey</li>
-    </ul>
+  <header>
+    <img src="Hustle Launch.png" alt="Hustle Launch HQ Logo" />
+    <h1>Get Early Access to the AI Side Hustle Toolkit</h1>
+    <p class="subtitle">
+      Join the waitlist and follow our real-time journey to build and launch AI-powered income streams — without the hype.
+    </p>
+  </header>
 
-<!-- MailerLite Embedded Form -->
-<div id="mlb2-27792447" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-27792447">
-  <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/1629177/forms/158560356127474995/subscribe" method="post" target="_blank">
-    <div>
-      <input type="text" name="fields[name]" placeholder="Your first name" required>
-    </div>
-    <br>
-    <div>
-      <input type="email" name="fields[email]" placeholder="Your best email" required>
-    </div>
-    <br>
-    <div>
+  <div class="form-container">
+    <form action="https://assets.mailerlite.com/jsonp/1629177/forms/158560356127474995/subscribe" method="post" target="_blank">
+      <input type="text" name="fields[name]" placeholder="Your first name" required />
+      <input type="email" name="fields[email]" placeholder="Your best email" required />
       <button type="submit">Join the Waitlist</button>
-    </div>
-  </form>
-  <p style="font-size: 0.85rem; color: #777; margin-top: 10px;">No spam. Unsubscribe anytime.</p>
-</div>
-
-<script>
-  function ml_webform_success_27792447() {
-    var $ = ml_jQuery || jQuery;
-    $('.ml-subscribe-form-27792447 .row-success').show();
-    $('.ml-subscribe-form-27792447 .row-form').hide();
-  }
-</script>
-<script src="https://groot.mailerlite.com/js/w/webforms.min.js?v176e10baa5e7ed80d35ae235be3d5024" type="text/javascript"></script>
-
-
-    <p class="footer-note">No spam. Unsubscribe anytime.</p>
-
-    <div class="social-link">
-      👉 <a href="https://instagram.com/hustlelaunchhq" target="_blank">Follow us on Instagram @hustlelaunchhq</a>
-    </div>
-
-    <footer>
-      © 2025 Hustle Launch HQ • Built with free tools and a lot of hustle
-    </footer>
+    </form>
+    <p style="font-size: 0.85rem; color: #777; margin-top: 15px;">No spam. Unsubscribe anytime.</p>
   </div>
+
+  <footer>
+    &copy; 2025 Hustle Launch HQ. All rights reserved.
+  </footer>
+
 </body>
 </html>
