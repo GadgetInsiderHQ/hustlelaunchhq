@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #e9fdf4;
+      background: linear-gradient(to bottom right, #e9fdf4, #ffffff);
       text-align: center;
     }
     img.logo {
@@ -25,10 +25,6 @@
       color: #444;
       max-width: 600px;
       margin: 10px auto 30px;
-    }
-    .ml-embedWrapper {
-      display: flex;
-      justify-content: center;
     }
     footer {
       margin-top: 50px;
@@ -52,11 +48,19 @@
     Join the waitlist and follow our real-time journey to build and launch AI-powered income streams — without the hype.
   </p>
 
-  <!-- MailerLite Embed Code -->
-  <div class="ml-embedWrapper">
-    <div class="ml-embedded" data-form="PjfrdL"></div>
-  </div>
-  <script src="https://static.mailerlite.com/js/universal.js"></script>
+  <!-- Begin MailerLite Universal Embed -->
+  <script>
+    (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+    var c={ a:arguments,q:[]};var r=this.push(c);return "function"!=typeof r?r:f.bind(c.q);}
+    f.q=f.q||[];m[e]=m[e]||f.bind(f.q);var z=a.createElement("script");
+    z.async=1;z.src="https://static.mailerlite.com/js/universal.js";
+    var s=a.getElementsByTagName("script")[0];s.parentNode.insertBefore(z,s)
+    })(window, document, 0, 0, "ml");
+
+    ml('accounts', '1629177', 'p3q2z4');
+  </script>
+  <div class="ml-embedded" data-form="PjfrdL"></div>
+  <!-- End MailerLite Universal Embed -->
 
   <!-- Social Links -->
   <div class="social">
