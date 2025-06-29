@@ -4,103 +4,71 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Hustle Launch HQ</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
   <style>
     body {
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: linear-gradient(135deg, #e3f9e5, #f3fdf3);
-      text-align: center;
+      padding: 0;
+      background: linear-gradient(to bottom right, #e0f6ec, #f0fff5);
+      font-family: Arial, sans-serif;
       color: #111;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
     }
     .logo {
-      margin-top: 60px;
+      max-width: 160px;
+      margin-bottom: 20px;
     }
-    .logo img {
-      width: 120px;
+    .headline {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 16px;
     }
-    h1 {
-      font-size: 2rem;
-      margin-top: 20px;
+    .subtext {
+      font-size: 16px;
+      margin-bottom: 40px;
     }
-    p {
-      font-size: 1rem;
-      margin-top: 10px;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .form-container {
-      margin-top: 30px;
+    .form-wrapper {
       display: flex;
       justify-content: center;
     }
-    .ml-form-embedContainer {
-      width: 100%;
-      max-width: 400px;
-    }
-    footer {
+    .footer {
       margin-top: 40px;
-      font-size: 0.85rem;
+      font-size: 14px;
       color: #666;
     }
-    .socials {
-      margin-top: 10px;
-    }
-    .socials a {
-      margin: 0 8px;
-      display: inline-block;
-    }
-    .socials img {
+    .footer img {
       width: 24px;
-      height: 24px;
       vertical-align: middle;
+      margin: 0 4px;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <img src="https://storage.mlcdn.com/account_image/1629177/JyN6n5f4ZvGcjW7y53B0YiRXXGdyiOmS6ZlxrQ8E.png" alt="Hustle Launch HQ" class="logo">
+    <h1 class="headline">Get Early Access to the AI Side Hustle Toolkit</h1>
+    <p class="subtext">Join the waitlist and follow our real-time journey to build and launch AI-powered income streams — without the hype.</p>
 
-  <div class="logo">
-    <img src="https://storage.mlcdn.com/account_image/1629177/JyN6n5f4ZvGcjW7y53B0YiRXXGdyiOmS6ZlxrQ8E.png" alt="Hustle Launch HQ Logo" />
-  </div>
-
-  <h1>Get Early Access to the AI Side Hustle Toolkit</h1>
-  <p>Join the waitlist and follow our real-time journey to build and launch AI-powered income streams — without the hype.</p>
-
-  <div class="form-container">
-    <!-- START MailerLite Universal Embed -->
-    <div class="ml-embedded" data-form="KoDF4z"></div>
-    <!-- END MailerLite Universal Embed -->
-  </div>
-
-  <footer>
-    <div class="socials">
-      <a href="https://instagram.com/hustlelaunchhq" target="_blank" rel="noopener">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
-      </a>
+    <div class="form-wrapper">
+      <!-- 🔽 MailerLite Embed Starts Here -->
+      <div class="ml-embedded" data-form="158560356127474995"></div>
     </div>
-    <div>© 2025 Hustle Launch HQ. All rights reserved.</div>
-  </footer>
+  </div>
 
-  <script>
-    (function(m,a,i,l,e,r){ 
-      m['MailerLiteObject']=e; 
-      function f(){ 
-        var c={a:arguments,q:[]}; 
-        var r=this.push(c); 
-        return 'function'!=typeof r?r:f.bind(c.q); 
-      } 
-      f.q=f.q||[]; 
-      m[e]=m[e]||f.bind(f.q); 
-      m[e].q=m[e].q||f.q; 
-      r=a.createElement(i); 
-      var _=a.getElementsByTagName(i)[0]; 
-      r.async=1; 
-      r.src=l+'?v'+(~~(new Date().getTime()/1000000)); 
-      _.parentNode.insertBefore(r,_); 
-    })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-    ml('account', '1629177');
-  </script>
+  <!-- Instagram icon -->
+  <div class="footer">
+    <a href="https://www.instagram.com/hustlelaunchhq/" target="_blank" rel="noopener">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    </a>
+    <br/>
+    © 2025 Hustle Launch HQ. All rights reserved.
+  </div>
 
+  <!-- 🔽 MailerLite Embed Script -->
+  <script src="https://static.mailerlite.com/js/universal.js"></script>
 </body>
 </html>
